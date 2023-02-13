@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
 
 * {
   margin: 0;
@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  font-family: 'Press Start 2P', sans-serif;
+  font-family: "Press Start 2P", sans-serif;
   color: #eee;
   background-color: #222;
   /* background-color: #60b347; */
@@ -80,6 +80,7 @@ h1 {
   position: absolute;
   top: 2rem;
   left: 2rem;
+  background: #e0a348;
 }
 
 .guess {
@@ -97,12 +98,14 @@ h1 {
 
 .btn {
   border: none;
-  background-color: #eee;
   color: #222;
   font-size: 2rem;
   font-family: inherit;
   padding: 2rem 3rem;
   cursor: pointer;
+}
+.check {
+  background-color: #eee;
 }
 
 .btn:hover {
